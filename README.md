@@ -11,4 +11,7 @@
 11. Button Event
 12. Set state parameter, Callback function
 13. Previous state parameter or argument
-14. 
+14. Destructure PROPS AND STATE
+15. Event handler on class and functional Component
+16. EVENT BINDING FOR CLASS COMPONENT
+17. 
