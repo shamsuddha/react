@@ -14,4 +14,9 @@
 14. Destructure PROPS AND STATE
 15. Event handler on class and functional Component
 16. EVENT BINDING FOR CLASS COMPONENT
-17. 
+17. Call a method of a parent component from a child
+18. Passing props to child
+19. Passing parameter from child to Parent
+20. If else, Ternary operator
+21. JS MAP METHOD
+22. 

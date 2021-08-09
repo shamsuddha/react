@@ -5,32 +5,29 @@ class EventBind extends Component
         super();
         this.state =
             {
-                message: "hello world"
+                message: "why you knocked me?"
             }
 
-     /*   /!* BINDING IN CONSTRUCTOR*!/
-        this.handler = this.handler.bind(this)*/
+            this.handler = this.handler.bind(this)
     }
-    handler = () =>
+
+
+    handler()
     {
-        this.setState(
-            {
-                message: "good bye"
-            }
-        )
+        this.setState({
+            message: "Good bye"
+        })
     }
 
 
     render() {
-        return (
+        return(
             <div>
                 <h1>{this.state.message}</h1>
-                {/*  <button onClick={this.handler.bind(this)}>Click</button>*/}
-                {/*  <button onClick={()=>this.handler()}>Click</button>*/}
-
-                <button onClick={this.handler}>Click</button>
+                <button onClick={this.handler}>Show message</button>
             </div>
         )
     }
+
 }
 export default EventBind;
