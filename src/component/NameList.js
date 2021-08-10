@@ -22,7 +22,17 @@ function NameList()
             skill: 'Angular'
         }
     ]
-    const person = persons.map(person => <Person key={person.id} person = {person}></Person>)
-    return <div>{person}</div>
+
+    const names = ['rajit', 'asma', 'rahat']
+
+    const person = persons.map((person)=><Person key={person.id} person={person}></Person>)
+    const name = names.map((name, index)=> <h1 key={index}>My name is {name}</h1>)
+
+    return (
+        <div>
+            {person}
+            {name}
+        </div>
+    )
 }
 export default NameList;

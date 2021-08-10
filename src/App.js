@@ -10,15 +10,19 @@ import EventBind from "./component/EventBind";
 import ParentComponent from "./component/ParentComponent";
 import UserGreeting from "./component/UserGreeting";
 import NameList from "./component/NameList";
+import Stylesheet from "./component/Stylesheet";
+import Form from "./component/Form";
 
 function App() {
     return (
         <div className="App">
 
-           <NameList></NameList>
-
+            <Form></Form>
 
             {/*
+
+              <Stylesheet></Stylesheet>
+  <NameList></NameList>
              <UserGreeting></UserGreeting>
 
         <ParentComponent></ParentComponent>
@@ -29,12 +33,12 @@ function App() {
             <Greet name="hello asma"><p>hello</p></Greet>
             <Greet name="hello rahat"><p>hello</p></Greet>*!/
 
-
+ <Counter></Counter>
             <Welcome name="hello rajit"><p>hello adf</p></Welcome>
             <Welcome name="hello asma"><p>hello adfa</p></Welcome>
             <Welcome name="hello rahat"><p>hello adfadf</p></Welcome>
             <Message></Message>
-            <Counter></Counter>*/}
+         */}
 
 
         </div>

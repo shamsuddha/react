@@ -21,5 +21,7 @@
 21. If else, Ternary operator
 22. JS MAP METHOD
 23. React List Rendering
-24. List and keys
-25. 
+24. List and Unique keys
+25. Index as a key
+26. Styling react component
+27. 
